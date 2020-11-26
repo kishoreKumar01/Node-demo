@@ -12,3 +12,5 @@ const usersRoute = require("./routes/usersRoute");
 app.listen(3000, () => {
   console.log("The server is up and running");
 });
+
+const a = 5;
