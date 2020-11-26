@@ -3,7 +3,7 @@ const app = express();
 
 const usersRoute = require("./routes/usersRoute");
 
-app.use("/", usersRoute);
+// app.use("/", usersRoute);
 
   app.get("/", (req, res) => {
     res.send(`<h1>Hey there!</h1>`);
